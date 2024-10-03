@@ -9,20 +9,21 @@
     <li>php artisan serve</li>
     <li>php artisan storage:link </li>
 </ul>
-<p>Some basic commands:
-    php artisan make:controller RoleController -r   
-    php artisan make:controller UserController -r  
-    php artisan migrate:fresh --seed  
-     php artisan migrate:rollback      
-    php artisan migrate:reset  
-    php artisan config:clear   
-     composer dump-autoload  
-    php artisan cache:clear     
-    php artisan make:migration create_roles_table --create=roles  
-     php artisan make:migration create_users_table --create=users   
-    php artisan make:model Role -mfs       
-    php artisan make:model User -mfs  
-</p>
+<p>Some basic commands:</p>
+<ul>
+    <li>php artisan make:controller RoleController -r </li>
+    <li>php artisan make:controller UserController -r</li>
+    <li>php artisan migrate:fresh --seed </li>
+    <li>php artisan migrate:rollback </li>
+    <li>php artisan migrate:reset </li>
+    <li>php artisan config:clear</li>
+    <li>composer dump-autoload</li>
+    <li>php artisan cache:clear</li>
+    <li>php artisan make:migration create_roles_table --create=roles</li>
+    <li>php artisan make:migration create_users_table --create=users </li>
+    <li>php artisan make:model Role -mfs </li>
+    <li>php artisan make:model User -mfs</li>
+</ul>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
