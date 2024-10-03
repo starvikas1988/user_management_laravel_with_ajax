@@ -1,3 +1,28 @@
+<h3>Steps to run the project</h3>
+<ul>
+    <li>clone the project in your system,open xampp/wamp server</li>
+    <li>php artisan migrate</li>
+    <li> php artisan db:seed --class=RoleSeeder   </li>
+    <li>php artisan seed  </li>
+    <li>php artisan session:table  </li>
+    <li>php artisan seed  </li>
+    <li>php artisan serve</li>
+    <li>php artisan storage:link </li>
+</ul>
+<p>Some basic commands:
+    php artisan make:controller RoleController -r   
+    php artisan make:controller UserController -r  
+    php artisan migrate:fresh --seed  
+     php artisan migrate:rollback      
+    php artisan migrate:reset  
+    php artisan config:clear   
+     composer dump-autoload  
+    php artisan cache:clear     
+    php artisan make:migration create_roles_table --create=roles  
+     php artisan make:migration create_users_table --create=users   
+    php artisan make:model Role -mfs       
+    php artisan make:model User -mfs  
+</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
